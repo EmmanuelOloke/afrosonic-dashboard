@@ -10,7 +10,7 @@ export const theme = extendTheme({
     colors: {
         'gray.dark': '#1C1C1C',
         'gray.light': '#646464',
-        'brand.red': 'E14949'
+        'brand.red': '#E14949'
     },
     fonts: {
         heading: `Circular std Book, ${base.fonts?.heading}`,
