@@ -12,7 +12,9 @@ import { genres } from './genres-data';
 import { Image } from 'components/image';
 
 export const GenresCarousel = () => {
-  const imageSize = useBreakpointValue({ base: 80, md: 96, '2xl': 192 }) ?? 192;
+  //   const imageSize = useBreakpointValue({ base: 20, md: 24, '2xl': 48 }) ?? 48;
+  //   const imageSize = useBreakpointValue({ base: '80px', md: '96px', '2xl': '192px' }) ?? '192px';
+  const imageSize = useBreakpointValue({ base: 20, md: 100, '2xl': 192 }) ?? 192;
 
   return (
     <HStack width="full" spacing={12} overflowX="auto" rounded="lg" flexShrink={0}>
